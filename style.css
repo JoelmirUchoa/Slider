@@ -28,6 +28,7 @@ body {
 .slide {
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img{
@@ -92,4 +93,20 @@ body {
 
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
+}
+
+#radio-1:checked ~ .navigation-auto .auto-btn01{
+    background-color: #fff;
+}
+
+#radio-2:checked ~ .navigation-auto .auto-btn02{
+    background-color: #fff;
+}
+
+#radio-3:checked ~ .navigation-auto .auto-btn03{
+    background-color: #fff;
+}
+
+#radio-4:checked ~ .navigation-auto .auto-btn04{
+    background-color: #fff;
 }
